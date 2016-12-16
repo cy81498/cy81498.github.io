@@ -39,7 +39,7 @@ body {
 }
 
 .flex-container2 {
-	display: -webkit-flex;
+    display: -webkit-flex;
     display: flex;
     -webkit-flex-direction: row;
     flex-direction: row;
@@ -50,8 +50,8 @@ body {
 
 .flex-item2 {
     text-align: left;
-    width: 600px;
-    height: 200px;
+    width: 200px;
+    height: 600px;
     margin: 10px;
 }
 
