@@ -2,26 +2,35 @@ p {
     color: green;
     font-size: 20px;
     text-align: center;
-    border-style: double;
+    border-style: solid;
 }
 
 div{
 	@media = "screen and (min-width =  600px)" {
 p {
     font-size: 12px;
-    border-style: double;
+    border-style: single;
 }
 }
 }
 
 body {
-background-image: url("UB.jpeg");
+	background-image: url("UB.jpeg");
 	border-style: double;
 }
 
 #first-paragraph {
 	font-family: helvetica, san-serif;
-font-size: 16px;
-color: blue;
+	font-size: 16px;
+}
+
+ul {
+	font-size: 16px;
+	border-style: single;
+}
+
+#myimage {
+	width: 200px;
+	height: 100px;
 }
 
