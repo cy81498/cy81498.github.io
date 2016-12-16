@@ -22,14 +22,11 @@ body {
 	font-size: 16px;
 }
 
-div{
-	@media = "screen and (min-width =  600px)" {
 #myimage {
 	width: 50px;
 	height: 25px;
 	}
-}
-}
+
 
 ul {
 	font-size: 16px;
