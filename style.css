@@ -24,13 +24,13 @@ body {
 
 #first-paragraph {
 	font-family: helvetica, san-serif;
-	font-size: 16px;
-	display: block;
+	font-size: 16px;	
 }
 
 #myimage {
+	display: block;
 	max-width: 100%;
-        height: auto;
+        height: auto/2;
         width: auto\9;
 	}
 
