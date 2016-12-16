@@ -38,6 +38,23 @@ body {
     direction: ltr, column;
 }
 
+.flex-container2 {
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    width: 400;
+    height: 220;
+    background-color: lightgrey;
+}
+
+.flex-item2 {
+    text-align: left;
+    width: 600px;
+    height: 200px;
+    margin: 10px;
+}
+
 .flex-container {
     display: -webkit-flex;
     display: flex;
