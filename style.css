@@ -35,20 +35,23 @@ body {
         width: auto\10;
 	}
 body {
-    direction: rtl;
+    direction: ltr, column;
 }
 
 .flex-container {
     display: -webkit-flex;
     display: flex;
-    width: 400px;
-    height: 250px;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
     background-color: lightgrey;
 }
 
 .flex-item {
+	text-align: left;
     background-color: cornflowerblue;
-    width: 110px;
+    width: 600px;
     height: 200px;
     margin: 10px;
 }
