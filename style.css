@@ -19,6 +19,13 @@ p {
 
 body {
 	background-image: url("UB.jpeg");
+	background-repeat: no-repeat;
+        background-position: 50% 0;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;
 	border-style: double;
 }
 
@@ -27,10 +34,10 @@ body {
 	font-size: 16px;	
 }
 
-/*#myimage {
+#myimage {
 	display: block;
 	max-width: 100%;
-        height: auto/2;
+        height: 100px;
         width: auto\9;
 	}*/
 
