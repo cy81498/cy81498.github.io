@@ -38,22 +38,7 @@ body {
     direction: ltr, column;
 }
 
-.flex-container2 {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: row;
-    flex-direction: row;
-    width: 400;
-    height: 600;
-    background-color: lightgrey;
-}
 
-.flex-item2 {
-    text-align: left;
-    width: 200px;
-    height: 600px;
-    margin: 10px;
-}
 
 .flex-container {
     display: -webkit-flex;
