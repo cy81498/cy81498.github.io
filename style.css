@@ -28,8 +28,9 @@ body {
 }
 
 #myimage {
-	width: 50px;
-	height: 25px;
+	max-width: 100%;
+        height: auto;
+        width: auto\9;
 	}
 
 
