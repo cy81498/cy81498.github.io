@@ -43,16 +43,16 @@ body {
     display: flex;
     -webkit-flex-direction: column;
     flex-direction: column;
-    width: 600px;
-    height: 600px;
+    width: 100%;
+    height: auto/9;
     background-color: lightgrey;
 }
 
 .flex-item {
 	text-align: left;
     background-color: cornflowerblue;
-    width: 600px;
-    height: 200px;
+    width: 100%;
+    height: auto/9;
     margin: 10px;
 }
 
