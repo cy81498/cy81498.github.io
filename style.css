@@ -1,7 +1,6 @@
 p {
     font-size: 20px;
     text-align: center;
-    border-style: solid;
 }
 
 div{
@@ -23,15 +22,18 @@ body {
 	font-size: 16px;
 }
 
+div{
+	@media = "screen and (min-width =  600px)" {
+#myimage {
+	width: 50px;
+	height: 25px;
+	}
+}
+}
+
 ul {
 	font-size: 16px;
 	border-style: single;
 }
 
-div{
-	@media = "screen and (min-width =  600px)" {
-#myimage {
-	width: 100px;
-	height: 50px;
-	}
-}
+
